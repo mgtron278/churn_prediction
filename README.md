@@ -1,13 +1,21 @@
-```markdown
+
+
 # Customer Churn Analysis Project
+
+This project aims to analyze customer churn in a telecommunications company using machine learning techniques. It includes exploratory data analysis (EDA), model training, interpretation using SHAP values, and a Streamlit web application for interactive visualization and churn probability prediction.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
 Customer churn, the phenomenon of customers ceasing to do business with a company, is a critical metric for businesses, especially in subscription-based industries like telecommunications. This project employs machine learning models to predict customer churn based on historical customer data and provides insights into the factors influencing churn decisions.
-
-In addition to model development and analysis, the project utilizes FastAPI for creating a RESTful API to serve churn prediction endpoints. Docker is employed for containerization, ensuring consistency and portability across different environments.
-
-The Streamlit web application offers an interactive interface for visualizing model outputs and exploring individual customer churn predictions. With the combination of FastAPI, Docker, and Streamlit, this project provides a comprehensive solution for customer churn analysis, from model development to deployment and user interaction.
 
 ## Project Structure
 
@@ -68,7 +76,6 @@ Contributions are welcome! Please feel free to open issues or pull requests for 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-```markdown
+
 ---
-```
+
